@@ -1,5 +1,6 @@
 from flask import Flask, escape, request, jsonify
 from scraper import web_scrape
+
 app = Flask(__name__)
 
 
@@ -22,4 +23,4 @@ def api():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
