@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    dict1 = {"prop1": "p1", "prop2": "p2"}
-    return jsonify(dict1)
+    name = request.args.get("name", "World")
+    return f'Hello, {escape(name)}!'
 
 
 @app.route('/api')
