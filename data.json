@@ -15,19 +15,19 @@
             },
             {
                 "name": "confirmIndian",
-                "type": "integer"
+                "type": "string"
             },
             {
                 "name": "confirmForeign",
-                "type": "integer"
+                "type": "string"
             },
             {
                 "name": "recovered",
-                "type": "integer"
+                "type": "string"
             },
             {
                 "name": "death",
-                "type": "integer"
+                "type": "string"
             }
         ],
         "primaryKey": [
@@ -40,217 +40,253 @@
             "index": 0,
             "id": "1",
             "state": "Andhra Pradesh",
-            "confirmIndian": 5,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 0
+            "confirmIndian": "11",
+            "confirmForeign": "0",
+            "recovered": "1",
+            "death": "0"
         },
         {
             "index": 1,
             "id": "2",
             "state": "Bihar",
-            "confirmIndian": 2,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 1
+            "confirmIndian": "3",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "1"
         },
         {
             "index": 2,
             "id": "3",
             "state": "Chhattisgarh",
-            "confirmIndian": 1,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 0
+            "confirmIndian": "3",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "0"
         },
         {
             "index": 3,
             "id": "4",
             "state": "Delhi",
-            "confirmIndian": 28,
-            "confirmForeign": 1,
-            "recovered": 5,
-            "death": 1
+            "confirmIndian": "34",
+            "confirmForeign": "1",
+            "recovered": "6",
+            "death": "1"
         },
         {
             "index": 4,
             "id": "5",
-            "state": "Gujarat",
-            "confirmIndian": 18,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 1
+            "state": "Goa",
+            "confirmIndian": "3",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "0"
         },
         {
             "index": 5,
             "id": "6",
-            "state": "Haryana",
-            "confirmIndian": 7,
-            "confirmForeign": 14,
-            "recovered": 0,
-            "death": 0
+            "state": "Gujarat",
+            "confirmIndian": "37",
+            "confirmForeign": "1",
+            "recovered": "0",
+            "death": "2"
         },
         {
             "index": 6,
             "id": "7",
-            "state": "Himachal Pradesh",
-            "confirmIndian": 2,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 0
+            "state": "Haryana",
+            "confirmIndian": "16",
+            "confirmForeign": "14",
+            "recovered": "11",
+            "death": "0"
         },
         {
             "index": 7,
             "id": "8",
-            "state": "Karnataka",
-            "confirmIndian": 26,
-            "confirmForeign": 0,
-            "recovered": 2,
-            "death": 1
+            "state": "Himachal Pradesh",
+            "confirmIndian": "3",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "1"
         },
         {
             "index": 8,
             "id": "9",
-            "state": "Kerala",
-            "confirmIndian": 60,
-            "confirmForeign": 7,
-            "recovered": 3,
-            "death": 0
+            "state": "Karnataka",
+            "confirmIndian": "41",
+            "confirmForeign": "0",
+            "recovered": "3",
+            "death": "1"
         },
         {
             "index": 9,
             "id": "10",
-            "state": "Madhya Pradesh",
-            "confirmIndian": 6,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 0
+            "state": "Kerala",
+            "confirmIndian": "110",
+            "confirmForeign": "8",
+            "recovered": "4",
+            "death": "0"
         },
         {
             "index": 10,
             "id": "11",
-            "state": "Maharashtra",
-            "confirmIndian": 64,
-            "confirmForeign": 3,
-            "recovered": 0,
-            "death": 2
+            "state": "Madhya Pradesh",
+            "confirmIndian": "15",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "1"
         },
         {
             "index": 11,
             "id": "12",
-            "state": "Odisha",
-            "confirmIndian": 2,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 0
+            "state": "Maharashtra",
+            "confirmIndian": "121",
+            "confirmForeign": "3",
+            "recovered": "1",
+            "death": "3"
         },
         {
             "index": 12,
             "id": "13",
-            "state": "Puducherry",
-            "confirmIndian": 1,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 0
+            "state": "Manipur",
+            "confirmIndian": "1",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "0"
         },
         {
             "index": 13,
             "id": "14",
-            "state": "Punjab",
-            "confirmIndian": 21,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 1
+            "state": "Mizoram",
+            "confirmIndian": "1",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "0"
         },
         {
             "index": 14,
             "id": "15",
-            "state": "Rajasthan",
-            "confirmIndian": 25,
-            "confirmForeign": 2,
-            "recovered": 3,
-            "death": 0
+            "state": "Odisha",
+            "confirmIndian": "2",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "0"
         },
         {
             "index": 15,
             "id": "16",
-            "state": "Tamil Nadu",
-            "confirmIndian": 7,
-            "confirmForeign": 2,
-            "recovered": 1,
-            "death": 0
+            "state": "Puducherry",
+            "confirmIndian": "1",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "0"
         },
         {
             "index": 16,
             "id": "17",
-            "state": "Telengana",
-            "confirmIndian": 15,
-            "confirmForeign": 11,
-            "recovered": 1,
-            "death": 0
+            "state": "Punjab",
+            "confirmIndian": "33",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "1"
         },
         {
             "index": 17,
             "id": "18",
-            "state": "Chandigarh",
-            "confirmIndian": 5,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 0
+            "state": "Rajasthan",
+            "confirmIndian": "36",
+            "confirmForeign": "2",
+            "recovered": "3",
+            "death": "0"
         },
         {
             "index": 18,
             "id": "19",
-            "state": "Jammu and Kashmir",
-            "confirmIndian": 4,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 0
+            "state": "Tamil Nadu",
+            "confirmIndian": "20",
+            "confirmForeign": "6",
+            "recovered": "1",
+            "death": "1"
         },
         {
             "index": 19,
             "id": "20",
-            "state": "Ladakh",
-            "confirmIndian": 13,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 0
+            "state": "Telengana",
+            "confirmIndian": "31",
+            "confirmForeign": "10",
+            "recovered": "1",
+            "death": "0"
         },
         {
             "index": 20,
             "id": "21",
-            "state": "Uttar Pradesh",
-            "confirmIndian": 27,
-            "confirmForeign": 1,
-            "recovered": 9,
-            "death": 0
+            "state": "Chandigarh",
+            "confirmIndian": "7",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "0"
         },
         {
             "index": 21,
             "id": "22",
-            "state": "Uttarakhand",
-            "confirmIndian": 3,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 0
+            "state": "Jammu and Kashmir",
+            "confirmIndian": "11",
+            "confirmForeign": "0",
+            "recovered": "1",
+            "death": "0"
         },
         {
             "index": 22,
             "id": "23",
-            "state": "West Bengal",
-            "confirmIndian": 7,
-            "confirmForeign": 0,
-            "recovered": 0,
-            "death": 0
+            "state": "Ladakh",
+            "confirmIndian": "13",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "0"
         },
         {
             "index": 23,
+            "id": "24",
+            "state": "Uttar Pradesh",
+            "confirmIndian": "36",
+            "confirmForeign": "1",
+            "recovered": "11",
+            "death": "0"
+        },
+        {
+            "index": 24,
+            "id": "25",
+            "state": "Uttarakhand",
+            "confirmIndian": "4",
+            "confirmForeign": "1",
+            "recovered": "0",
+            "death": "0"
+        },
+        {
+            "index": 25,
+            "id": "26",
+            "state": "West Bengal",
+            "confirmIndian": "9",
+            "confirmForeign": "0",
+            "recovered": "0",
+            "death": "1"
+        },
+        {
+            "index": 26,
             "id": "Total number of confirmed cases in India",
             "state": "Total number of confirmed cases in India",
-            "confirmIndian": 349,
-            "confirmForeign": 41,
-            "recovered": 24,
-            "death": 7
+            "confirmIndian": "602#",
+            "confirmForeign": "47",
+            "recovered": "43",
+            "death": "13"
+        },
+        {
+            "index": 27,
+            "id": "# Few of the new cases have been reassigned States as per latest information",
+            "state": "# Few of the new cases have been reassigned States as per latest information",
+            "confirmIndian": "# Few of the new cases have been reassigned States as per latest information",
+            "confirmForeign": "# Few of the new cases have been reassigned States as per latest information",
+            "recovered": "# Few of the new cases have been reassigned States as per latest information",
+            "death": "# Few of the new cases have been reassigned States as per latest information"
         }
     ]
 }

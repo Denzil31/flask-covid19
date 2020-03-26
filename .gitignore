@@ -3,3 +3,6 @@
 
 # VSCode Settings
 .vscode
+
+# Backup JSON File
+data.json

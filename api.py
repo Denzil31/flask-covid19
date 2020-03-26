@@ -1,8 +1,13 @@
-from flask import Flask, escape, request, jsonify, Response
+from flask import Flask, Response, escape, jsonify, request
+from flask_cors import CORS
+
 from scraper import web_scrape
 
-
 app = Flask(__name__)
+app.config.from_object(__name__)
+
+# enable CORS
+CORS(app, resources={r'/*': {'origins': '*'}})
 
 
 @app.route('/')
